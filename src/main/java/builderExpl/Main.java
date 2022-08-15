@@ -1,51 +1,32 @@
 package builderExpl;
 
 import models.FamilyHouse;
-
-import java.util.Observable;
-import java.util.Observer;
+import observersExpl.ObservableTempValue;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
-        //WZORCE CZYNNOŚCIOWE
-//potrzebujemy obiektu obserwowanego i obiektu/ow obserwujacych
-        //najpierw obiekt obserwowany, stworzymy klase anonimowa
-        //ta metode mozna dac w osobna klase tak samo jak obserwatorow
-        //ale w zasiegu tej klasy
-        Observable observableValue = new Observable(){
-        //metoda rozglaszajaca, crt+O i nadpisujemy metode notifyObservers
-            @Override
-            public void notifyObservers(Object arg) {
-                //bonusowo super.setChanges do odnotowania zmiany
-                super.setChanged();
-                super.notifyObservers(arg);
-            }
-        };
+        //to zostaje zamienione, tworzymy obiekt klasy
+//        Observable observableValue = new Observable(){
+//            @Override
+//            public void notifyObservers(Object arg) {
+//                super.setChanged(); // sprzwdzenie zmiany
+//                super.notifyObservers(arg); // powiadomienie
+//            }
+//        };
+        ObservableTempValue observableValue = new ObservableTempValue();
 
-        //tutaj obserwatorzy
-        observableValue.addObserver(new Observer(){
-            //ta metoda wywola sie jak zmianie ulegnie obserwowany
-            //ta i ta nizej wywolaja sie po kolei, jak z listy
-            @Override
-            public void update(Observable o, Object arg) {
-                System.out.println("1 " + arg.toString());
-            }
-        });
-        observableValue.addObserver(new Observer(){
-            //ta metoda wywola sie jak zmianie ulegnie obserwowany
-            @Override
-            public void update(Observable o, Object arg) {
-                System.out.println("2 " + arg.toString());
-            }
-        });
-
-        //obserwatora mozna zrobic tez na lambdzie
+        // zastepujemy lambdami
+        observableValue.addObserver((o, arg) -> System.out.println("1 " + arg.toString()));
+        observableValue.addObserver((o, arg) -> System.out.println("2 " + arg.toString()));
         observableValue.addObserver((o, arg) -> System.out.println("3 " + arg.toString()));
 
-        // metoda ktora poinformuje obserwatorow ze cos sie zmienilo
-        //argumentem metody jest obiekt tak ze mozna wrzucic wszystko
-        observableValue.notifyObservers(54);
+        //napisanie malej symulacji jak by to mialo wygladac w programie
+        while(true) {
+            Thread.sleep(500); // co pol sec sprawdzi stan
+            //tu dodamy cos zeby zmieniala sie randomowo temp
+            observableValue.setValue((int)(observableValue.getOldTemp() +
+                    Math.random() * 6 - 2));
 
     }
 

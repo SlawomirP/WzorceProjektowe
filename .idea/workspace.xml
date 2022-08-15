@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85a42a86-4ce7-4f06-9273-6f34774f6522" name="Changes" comment="Wzorce czynnosciowe">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/observersExpl/ObservableTempValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/builderExpl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builderExpl/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660576689010</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Wzorce czynnosciowe">
+      <created>1660577331602</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660577331602</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
