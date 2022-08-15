@@ -7,11 +7,15 @@ public class Logger {
     }
 
     public static Logger getInstance() {
-        if (Logger.instance == null) {
-            instance = new Logger();
-            return instance;
-        } else {
-            return instance;
-        }
+        //ta metoda za chwile zostanie stworzona (SingletonHolder)
+        return SingletonHolder.INSTANCE; // Bill Pugh
+    }
+
+    public void logToConsole(){}
+
+
+    //to jest klasa wewnetrzna z jednym polem (SingletonHolder)
+    private static class SingletonHolder{
+        private static final Logger INSTANCE = new Logger();
     }
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85a42a86-4ce7-4f06-9273-6f34774f6522" name="Changes" comment="SINGLETON">
+    <list default="true" id="85a42a86-4ce7-4f06-9273-6f34774f6522" name="Changes" comment="zamiana singletona na bezpieczniejsza wersje">
       <change beforePath="$PROJECT_DIR$/src/main/java/singletonExpl/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singletonExpl/Logger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660571485022</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="zamiana singletona na bezpieczniejsza wersje">
+      <created>1660572485997</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660572485997</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,6 +143,7 @@
     <MESSAGE value="stworzenie buildera z automatu" />
     <MESSAGE value="stworzenie OBIEKTU NA PODSTAWIE INNEGO OBIEKTU, METODY STATYCZNE" />
     <MESSAGE value="SINGLETON" />
-    <option name="LAST_COMMIT_MESSAGE" value="SINGLETON" />
+    <MESSAGE value="zamiana singletona na bezpieczniejsza wersje" />
+    <option name="LAST_COMMIT_MESSAGE" value="zamiana singletona na bezpieczniejsza wersje" />
   </component>
 </project>
