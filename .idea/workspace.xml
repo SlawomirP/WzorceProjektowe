@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85a42a86-4ce7-4f06-9273-6f34774f6522" name="Changes" comment="stworzenie OBIEKTU NA PODSTAWIE INNEGO OBIEKTU, METODY STATYCZNE">
-      <change afterPath="$PROJECT_DIR$/src/main/java/singletonExpl/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/builderExpl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builderExpl/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="85a42a86-4ce7-4f06-9273-6f34774f6522" name="Changes" comment="SINGLETON" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660561985349</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="SINGLETON">
+      <created>1660565735005</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660565735005</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +126,7 @@
     <MESSAGE value="---" />
     <MESSAGE value="stworzenie buildera z automatu" />
     <MESSAGE value="stworzenie OBIEKTU NA PODSTAWIE INNEGO OBIEKTU, METODY STATYCZNE" />
-    <option name="LAST_COMMIT_MESSAGE" value="stworzenie OBIEKTU NA PODSTAWIE INNEGO OBIEKTU, METODY STATYCZNE" />
+    <MESSAGE value="SINGLETON" />
+    <option name="LAST_COMMIT_MESSAGE" value="SINGLETON" />
   </component>
 </project>
