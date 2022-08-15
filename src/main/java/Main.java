@@ -5,10 +5,10 @@ public class Main {
         // new House .setAdress      .setFloors    . .setDoorsNumber .setWindowNumber
 
         //STWORZENIE OBIEKTU Z BUDOWNICZEGO
-        House house = new House()
-                .setAdress("ul. Dluga")
-                .setDoorsNumber(3)
-                .setWindowsNumber(10)
-                .createHouse();
-    }
+//        House house = new HouseBuilder().createHouse()
+//                .setAdress("ul. Dluga")
+//                .setDoorsNumber(3)
+//                .setWindowsNumber(10)
+//                .createHouse();
+//    }
 }
