@@ -1,12 +1,20 @@
 package builderExpl;
 
 import models.FamilyHouse;
-import singletonExpl.Logger;
 
 public class Main {
     public static void main(String[] args) {
 
-//UTWORZENIE OBIEKTU PRZY POMOCY BUILDERA
+        //WZORCE CZYNNOŚCIOWE
+
+
+
+
+
+    }
+
+    private static void creationPatterns() {
+        //UTWORZENIE OBIEKTU PRZY POMOCY BUILDERA
 
         House house = new House.HouseBuilder()
                 .setAdress("ul. Dluga")
