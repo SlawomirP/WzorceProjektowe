@@ -1,3 +1,5 @@
+package builderExpl;
+
 public class House {
 
     private String adress;
@@ -41,6 +43,22 @@ public class House {
         public House build() {
             return new House(adress, floorsNumber, doorsNumber, windowsNumber);
         }
+    }
+
+    public String getAdress() {
+        return adress;
+    }
+
+    public Integer getFloorsNumber() {
+        return floorsNumber;
+    }
+
+    public Integer getDoorsNumber() {
+        return doorsNumber;
+    }
+
+    public Integer getWindowsNumber() {
+        return windowsNumber;
     }
 }
 
