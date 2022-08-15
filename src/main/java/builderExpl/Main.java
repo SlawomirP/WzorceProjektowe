@@ -1,6 +1,7 @@
 package builderExpl;
 
 import models.FamilyHouse;
+import singletonExpl.Logger;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,5 +32,7 @@ public class Main {
 
         //przypisujemy do zmiannej
         FamilyHouse familyHouse = FamilyHouse.from(house);
+
+//        Logger.getInstance(). tutaj wywolujemy metody z Loggera
     }
 }
