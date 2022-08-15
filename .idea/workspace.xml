@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85a42a86-4ce7-4f06-9273-6f34774f6522" name="Changes" comment="stworzenie buildera z automatu">
-      <change afterPath="$PROJECT_DIR$/src/main/java/builderExpl/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/FamilyHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builderExpl/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builderExpl/Tests.java" afterDir="false" />
+    <list default="true" id="85a42a86-4ce7-4f06-9273-6f34774f6522" name="Changes" comment="stworzenie OBIEKTU NA PODSTAWIE INNEGO OBIEKTU, METODY STATYCZNE">
+      <change beforePath="$PROJECT_DIR$/src/main/java/builderExpl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builderExpl/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660552075834</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="stworzenie OBIEKTU NA PODSTAWIE INNEGO OBIEKTU, METODY STATYCZNE">
+      <created>1660561104956</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660561104956</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="---" />
     <MESSAGE value="stworzenie buildera z automatu" />
-    <option name="LAST_COMMIT_MESSAGE" value="stworzenie buildera z automatu" />
+    <MESSAGE value="stworzenie OBIEKTU NA PODSTAWIE INNEGO OBIEKTU, METODY STATYCZNE" />
+    <option name="LAST_COMMIT_MESSAGE" value="stworzenie OBIEKTU NA PODSTAWIE INNEGO OBIEKTU, METODY STATYCZNE" />
   </component>
 </project>

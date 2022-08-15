@@ -4,7 +4,7 @@ import builderExpl.House;
 
 public class FamilyHouse {
 
-   String adress;
+    String adress;
     private final Integer floorsNumber;
     Integer floorsNumbers;
 

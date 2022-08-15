@@ -1,6 +1,5 @@
 package builderExpl;
 
-import builderExpl.House;
 import models.FamilyHouse;
 
 public class Main {
@@ -15,7 +14,7 @@ public class Main {
                 .build();
 
 
-        //STATYCZNE METODY WYTWORZCZE
+        //STATYCZNE METODY WYTWORZCZE ---------
         //np to jest typ prymitywny i nie mamy przez to dostepu
         //do roznych metod jakie mialby obiekt boolean
         boolean isTrue = true;
@@ -32,7 +31,5 @@ public class Main {
 
         //przypisujemy do zmiannej
         FamilyHouse familyHouse = FamilyHouse.from(house);
-
-
     }
 }
