@@ -2,14 +2,37 @@ package builderExpl;
 
 import models.FamilyHouse;
 
+import java.util.Observable;
+import java.util.Observer;
+
 public class Main {
     public static void main(String[] args) {
 
         //WZORCE CZYNNOŚCIOWE
+//potrzebujemy obiektu obserwowanego i obiektu/ow obserwujacych
+        //najpierw obiekt obserwowany, stworzymy klase anonimowa
+        Observable observableValue = new Observable(){
+        //metoda rozglaszajaca
+        };
 
+        //tutaj obserwatorzy
+        observableValue.addObserver(new Observer(){
+            //ta metoda wywola sie jak zmianie ulegnie obserwowany
+            //ta i ta nizej wywolaja sie po kolei, jak z listy
+            @Override
+            public void update(Observable o, Object arg) {
+            }
+        });
+        observableValue.addObserver(new Observer(){
+            //ta metoda wywola sie jak zmianie ulegnie obserwowany
+            @Override
+            public void update(Observable o, Object arg) {
+            }
+        });
 
-
-
+        // metoda ktora poinformuje obserwatorow ze cos sie zmienilo
+        //argumentem metody jest obiekt tak ze mozna wrzucic wszystko
+        observableValue.notifyObservers(54);
 
     }
 
