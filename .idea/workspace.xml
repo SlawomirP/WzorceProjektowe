@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85a42a86-4ce7-4f06-9273-6f34774f6522" name="Changes" comment="strategia">
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/Employee.java" afterDir="false" />
+    <list default="true" id="85a42a86-4ce7-4f06-9273-6f34774f6522" name="Changes" comment="strategia - implementacja">
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/BreakfastStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/JobStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/TravelStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/builderExpl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builderExpl/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategyExpl/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -40,6 +44,11 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/slawo/Downloads/materialy_do_kursu/materialy_do_kursu/wzorce&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="strategyExpl" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="builderExpl.Main" />
@@ -202,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660638761753</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="strategia - implementacja">
+      <created>1660639980600</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1660639980600</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +241,7 @@
     <MESSAGE value="Wzorce czynnosciowe" />
     <MESSAGE value="Obserwator z API javy" />
     <MESSAGE value="strategia" />
-    <option name="LAST_COMMIT_MESSAGE" value="strategia" />
+    <MESSAGE value="strategia - implementacja" />
+    <option name="LAST_COMMIT_MESSAGE" value="strategia - implementacja" />
   </component>
 </project>

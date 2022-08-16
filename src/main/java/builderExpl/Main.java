@@ -2,7 +2,10 @@ package builderExpl;
 
 import models.FamilyHouse;
 import observersExpl.ObservableTempValue;
+import strategyExpl.BikeTravelStrategy;
+import strategyExpl.DoctorJobStrategy;
 import strategyExpl.Employee;
+import strategyExpl.SandwichBreakfastStrategy;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
@@ -11,9 +14,9 @@ public class Main {
         //plan: (bez napisanych klas i metod)
         Employee mike = new Employee();
 
-        mike.travelStrategy = BikeTravelStrategy();
-        mike.jobResponsibility = DoctorJobStrategy();
-        mike.breakfast = SandwichBreakfastStrategy();
+        mike.travelStrategy = new BikeTravelStrategy();
+        mike.jobResponsibility = new DoctorJobStrategy();
+        mike.breakfast = new SandwichBreakfastStrategy();
 
         mike.goToWork();
         mike.doYourJob();
