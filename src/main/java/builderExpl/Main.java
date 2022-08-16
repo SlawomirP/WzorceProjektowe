@@ -34,12 +34,11 @@ public class Main {
         mike.living();
 
 
-        Bird eagle = new Bird();
 
-        eagle.eatStrategy = new MouseEatStrategy();
-        eagle.travelStrategyB = new FlyTravelStrategy();
-        eagle.sleepStrategy = new TreeSleepStrategy();
+        //wzorzec ADAPTER implementacja
 
+        OfficialTrippingEmployee otMike = new OfficialTripping(mike);
+        otMike.goToClient();
 
 
 
