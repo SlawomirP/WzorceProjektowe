@@ -11,6 +11,7 @@ import strategyExpl.CarTravelStrategy;
 import strategyExpl.DoctorJobStrategy;
 import strategyExpl.Employee;
 import strategyExpl.SandwichBreakfastStrategy;
+import strategyExpl.SemiHouseLivingStrategy;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
@@ -28,6 +29,9 @@ public class Main {
         mike.eatYourBreakfast();
 
         mike.travelStrategy = new CarTravelStrategy();
+
+        mike.livingStrategy = new SemiHouseLivingStrategy();
+        mike.living();
 
 
         Bird eagle = new Bird();
