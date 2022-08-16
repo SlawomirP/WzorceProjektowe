@@ -6,6 +6,17 @@ import observersExpl.ObservableTempValue;
 public class Main {
     public static void main(String[] args) throws InterruptedException {
 
+
+
+
+
+
+
+
+//
+    }
+
+    private static void observePattern() throws InterruptedException {
         //to zostaje zamienione, tworzymy obiekt klasy
 //        Observable observableValue = new Observable(){
 //            @Override
@@ -29,36 +40,35 @@ public class Main {
                     Math.random() * 6 - 2));
 
         }
+    }
+    private static void creationPatterns() {
+        //UTWORZENIE OBIEKTU PRZY POMOCY BUILDERA
 
-//    private static void creationPatterns() {
-//        //UTWORZENIE OBIEKTU PRZY POMOCY BUILDERA
-//
-//        House house = new House.HouseBuilder()
-//                .setAdress("ul. Dluga")
-//                .setDoorsNumber(3)
-//                .setWindowsNumber(10)
-//                .build();
-//
-//
-//        //STATYCZNE METODY WYTWORZCZE ---------
-//        //np to jest typ prymitywny i nie mamy przez to dostepu
-//        //do roznych metod jakie mialby obiekt boolean
-//        boolean isTrue = true;
-//
-//        // tworzymy obiekt boolean z gotowego booleana
-//        //valueOf to metoda statyczna
-//        // na podstawie to met from
-//        //z innego to of
-//        //value of wartosc z ...
-//        Boolean.valueOf(isTrue);
-//
-//        //poprostu piszemy, podkresli, klikamy i dorabiamy metode
-//        FamilyHouse.from(house);
-//
-//        //przypisujemy do zmiannej
-//        FamilyHouse familyHouse = FamilyHouse.from(house);
-//
-////        Logger.getInstance(). tutaj wywolujemy metody z Loggera
-//    }
+        House house = new House.HouseBuilder()
+                .setAdress("ul. Dluga")
+                .setDoorsNumber(3)
+                .setWindowsNumber(10)
+                .build();
+
+
+        //STATYCZNE METODY WYTWORZCZE ---------
+        //np to jest typ prymitywny i nie mamy przez to dostepu
+        //do roznych metod jakie mialby obiekt boolean
+        boolean isTrue = true;
+
+        // tworzymy obiekt boolean z gotowego booleana
+        //valueOf to metoda statyczna
+        // na podstawie to met from
+        //z innego to of
+        //value of wartosc z ...
+        Boolean.valueOf(isTrue);
+
+        //poprostu piszemy, podkresli, klikamy i dorabiamy metode
+        FamilyHouse.from(house);
+
+        //przypisujemy do zmiannej
+        FamilyHouse familyHouse = FamilyHouse.from(house);
+
+//        Logger.getInstance(). tutaj wywolujemy metody z Loggera
     }
 }
