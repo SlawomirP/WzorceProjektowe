@@ -1,5 +1,6 @@
 package builderExpl;
 
+import adapterExpl.OfficialTrippingEmployee;
 import birdStrExpl.Bird;
 import birdStrExpl.FlyTravelStrategy;
 import birdStrExpl.MouseEatStrategy;
@@ -37,7 +38,7 @@ public class Main {
 
         //wzorzec ADAPTER implementacja
 
-        OfficialTrippingEmployee otMike = new OfficialTripping(mike);
+        OfficialTrippingEmployee otMike = new OfficialTrippingEmployee(mike);
         otMike.goToClient();
 
 

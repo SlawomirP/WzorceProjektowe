@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85a42a86-4ce7-4f06-9273-6f34774f6522" name="Changes" comment="strategia - implementacja dla birda">
+    <list default="true" id="85a42a86-4ce7-4f06-9273-6f34774f6522" name="Changes" comment="adapter implementacja wzorca">
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapterExpl/OfficialTrippingEmployee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/builderExpl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builderExpl/Main.java" afterDir="false" />
     </list>
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,6 +43,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="adapterExpl" />
       <recent name="strategyExpl" />
       <recent name="birdStrExpl" />
     </key>
@@ -243,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660663093762</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="adapter implementacja wzorca">
+      <created>1660666646399</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1660666646399</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,6 +277,7 @@
     <MESSAGE value="strategia" />
     <MESSAGE value="strategia - implementacja" />
     <MESSAGE value="strategia - implementacja dla birda" />
-    <option name="LAST_COMMIT_MESSAGE" value="strategia - implementacja dla birda" />
+    <MESSAGE value="adapter implementacja wzorca" />
+    <option name="LAST_COMMIT_MESSAGE" value="adapter implementacja wzorca" />
   </component>
 </project>
