@@ -41,6 +41,10 @@ public class Main {
         OfficialTrippingEmployee otMike = new OfficialTrippingEmployee(mike);
         otMike.goToClient();
 
+        //WZORZEC DEKORATOR
+        System.out.println("zarobki " + mike.getSalary());
+        System.out.println("zarobki " + new FreqBonus(new DeadlineBonus(new SpecialBonus(mike))).getSalary());
+
 
 
 
