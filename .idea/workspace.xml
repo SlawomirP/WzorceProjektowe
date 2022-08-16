@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85a42a86-4ce7-4f06-9273-6f34774f6522" name="Changes" comment="strategia - implementacja">
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/CarTravelStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/birdStrExpl/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/birdStrExpl/EatStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/birdStrExpl/FlyTravelStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/birdStrExpl/MouseEatStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/birdStrExpl/SleepStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/birdStrExpl/TravelStrategyB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/birdStrExpl/TreeSleepStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/builderExpl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builderExpl/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategyExpl/BikeTravelStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/BikeTravelStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategyExpl/DoctorJobStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/DoctorJobStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategyExpl/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategyExpl/SandwichBreakfastStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/SandwichBreakfastStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="birdStrExpl" />
       <recent name="strategyExpl" />
     </key>
   </component>
@@ -226,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660647024606</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="strategia - implementacja">
+      <created>1660656569437</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1660656569437</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

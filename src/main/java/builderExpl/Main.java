@@ -1,5 +1,9 @@
 package builderExpl;
 
+import birdStrExpl.Bird;
+import birdStrExpl.FlyTravelStrategy;
+import birdStrExpl.MouseEatStrategy;
+import birdStrExpl.TreeSleepStrategy;
 import models.FamilyHouse;
 import observersExpl.ObservableTempValue;
 import strategyExpl.BikeTravelStrategy;
@@ -25,6 +29,12 @@ public class Main {
 
         mike.travelStrategy = new CarTravelStrategy();
 
+
+        Bird eagle = new Bird();
+
+        eagle.eatStrategy = new MouseEatStrategy();
+        eagle.travelStrategyB = new FlyTravelStrategy();
+        eagle.sleepStrategy = new TreeSleepStrategy();
 
 
 
