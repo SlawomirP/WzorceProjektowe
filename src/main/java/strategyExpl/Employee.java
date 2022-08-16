@@ -6,6 +6,8 @@ public class Employee implements TravelStrategy, JobStrategy,BreakfastStrategy, 
     public BreakfastStrategy breakfastStrategy;
     public SemiHouseLivingStrategy livingStrategy;
 
+    private int salary = 0;
+
     @Override
     public void goToWork() {
         travelStrategy.goToWork();
@@ -27,5 +29,13 @@ public class Employee implements TravelStrategy, JobStrategy,BreakfastStrategy, 
     @Override
     public void living() {
         livingStrategy.living();
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
     }
 }
