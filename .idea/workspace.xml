@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85a42a86-4ce7-4f06-9273-6f34774f6522" name="Changes" comment="strategia - implementacja">
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/BreakfastStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/JobStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/TravelStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/CarTravelStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/builderExpl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builderExpl/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategyExpl/BikeTravelStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/BikeTravelStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategyExpl/DoctorJobStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/DoctorJobStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/strategyExpl/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategyExpl/SandwichBreakfastStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/SandwichBreakfastStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -218,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660639980600</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="strategia - implementacja">
+      <created>1660647024606</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1660647024606</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

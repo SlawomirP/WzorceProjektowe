@@ -3,6 +3,7 @@ package builderExpl;
 import models.FamilyHouse;
 import observersExpl.ObservableTempValue;
 import strategyExpl.BikeTravelStrategy;
+import strategyExpl.CarTravelStrategy;
 import strategyExpl.DoctorJobStrategy;
 import strategyExpl.Employee;
 import strategyExpl.SandwichBreakfastStrategy;
@@ -15,12 +16,14 @@ public class Main {
         Employee mike = new Employee();
 
         mike.travelStrategy = new BikeTravelStrategy();
-        mike.jobResponsibility = new DoctorJobStrategy();
-        mike.breakfast = new SandwichBreakfastStrategy();
+        mike.jobStrategy = new DoctorJobStrategy();
+        mike.breakfastStrategy = new SandwichBreakfastStrategy();
 
         mike.goToWork();
         mike.doYourJob();
         mike.eatYourBreakfast();
+
+        mike.travelStrategy = new CarTravelStrategy();
 
 
 
