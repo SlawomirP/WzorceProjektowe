@@ -26,20 +26,10 @@ public class ApiFacade {
         mike.jobStrategy = new DoctorJobStrategy();
         mike.breakfastStrategy = new SandwichBreakfastStrategy();
 
-
-
-
-
         //wzorzec ADAPTER implementacja
 
         OfficialTrippingEmployee otMike = new OfficialTrippingEmployee(mike);
         otMike.goToClient();
-
-
-
-
-
-
 
         return mike;
     }
