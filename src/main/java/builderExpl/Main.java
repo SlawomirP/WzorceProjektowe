@@ -1,6 +1,7 @@
 package builderExpl;
 
 import adapterExpl.OfficialTrippingEmployee;
+import apiFacade.ApiFacade;
 import birdStrExpl.Bird;
 import birdStrExpl.FlyTravelStrategy;
 import birdStrExpl.MouseEatStrategy;
@@ -23,59 +24,65 @@ public class Main {
 
 
 
+        //TO ZOSTALO PRZENIESIONE DO METODY W KLASIE FACADE
+
+//        //STRATEGIA
+//        //plan: (bez napisanych klas i metod)
+//        Employee mike = new Employee();
+//
+//        mike.travelStrategy = new BikeTravelStrategy();
+//        mike.jobStrategy = new DoctorJobStrategy();
+//        mike.breakfastStrategy = new SandwichBreakfastStrategy();
+//
+//        mike.goToWork();
+//        mike.doYourJob();
+//        mike.eatYourBreakfast();
+//
+//        mike.travelStrategy = new CarTravelStrategy();
+//
+//        mike.livingStrategy = new SemiHouseLivingStrategy();
+//        mike.living();
+//
+//
+//
+//        //wzorzec ADAPTER implementacja
+//
+//        OfficialTrippingEmployee otMike = new OfficialTrippingEmployee(mike);
+//        otMike.goToClient();
+//
+//        //WZORZEC DEKORATOR
+//
+//        mike.setSalary(10000);
+//
+//        System.out.println("zarobki " + mike.getSalary());
+//        System.out.println("zarobki " + new FreqBonus(new DeadlineBonus(new SpecialBonus(mike))).getSalary());
+//
+//        Payable employee = mike;
+//        if(mike.getSalary() > 8000){
+//            employee = new SpecialBonus(employee);
+//        }
+//        if(mike.travelStrategy instanceof BikeTravelStrategy){
+//            employee = new FreqBonus(employee);
+//        }
+//
+//
+//        System.out.println("zarobki " + employee.getSalary());
+
+
+
         //FASADA
-        giveFreeHouseToBestFreqEmployee();
+        ApiFacade facade= new ApiFacade();
+        Employee mike = facade.createDoctor(1000);
+        facade.pushDoctorToJob(mike);
+        facade.countSalary(mike);
 
-        //STRATEGIA
-        //plan: (bez napisanych klas i metod)
-        Employee mike = new Employee();
-
-        mike.travelStrategy = new BikeTravelStrategy();
-        mike.jobStrategy = new DoctorJobStrategy();
-        mike.breakfastStrategy = new SandwichBreakfastStrategy();
-
-        mike.goToWork();
-        mike.doYourJob();
-        mike.eatYourBreakfast();
-
-        mike.travelStrategy = new CarTravelStrategy();
-
-        mike.livingStrategy = new SemiHouseLivingStrategy();
-        mike.living();
-
-
-
-        //wzorzec ADAPTER implementacja
-
-        OfficialTrippingEmployee otMike = new OfficialTrippingEmployee(mike);
-        otMike.goToClient();
-
-        //WZORZEC DEKORATOR
-
-        mike.setSalary(10000);
-
-        System.out.println("zarobki " + mike.getSalary());
-        System.out.println("zarobki " + new FreqBonus(new DeadlineBonus(new SpecialBonus(mike))).getSalary());
-
-        Payable employee = mike;
-        if(mike.getSalary() > 8000){
-            employee = new SpecialBonus(employee);
-        }
-        if(mike.travelStrategy instanceof BikeTravelStrategy){
-            employee = new FreqBonus(employee);
-        }
-
-
-        System.out.println("zarobki " + employee.getSalary());
-
+        facade.giveFreeHouseToBestFreqEmployee(mike);
 
 
 //
     }
 
-    private static void giveFreeHouseToBestFreqEmployee() {
 
-    }
 
     private static void observePattern() throws InterruptedException {
         //to zostaje zamienione, tworzymy obiekt klasy
@@ -105,30 +112,30 @@ public class Main {
     private static void creationPatterns() {
         //UTWORZENIE OBIEKTU PRZY POMOCY BUILDERA
 
-        House house = new House.HouseBuilder()
-                .setAdress("ul. Dluga")
-                .setDoorsNumber(3)
-                .setWindowsNumber(10)
-                .build();
+//        House house = new House.HouseBuilder()
+//                .setAdress("ul. Dluga")
+//                .setDoorsNumber(3)
+//                .setWindowsNumber(10)
+//                .build();
 
 
         //STATYCZNE METODY WYTWORZCZE ---------
         //np to jest typ prymitywny i nie mamy przez to dostepu
         //do roznych metod jakie mialby obiekt boolean
-        boolean isTrue = true;
+//        boolean isTrue = true;
 
         // tworzymy obiekt boolean z gotowego booleana
         //valueOf to metoda statyczna
         // na podstawie to met from
         //z innego to of
         //value of wartosc z ...
-        Boolean.valueOf(isTrue);
+//        Boolean.valueOf(isTrue);
 
         //poprostu piszemy, podkresli, klikamy i dorabiamy metode
-        FamilyHouse.from(house);
+//        FamilyHouse.from(house);
 
         //przypisujemy do zmiannej
-        FamilyHouse familyHouse = FamilyHouse.from(house);
+//        FamilyHouse familyHouse = FamilyHouse.from(house);
 
 //        Logger.getInstance(). tutaj wywolujemy metody z Loggera
     }
