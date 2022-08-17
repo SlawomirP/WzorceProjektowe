@@ -5,7 +5,10 @@ import birdStrExpl.Bird;
 import birdStrExpl.FlyTravelStrategy;
 import birdStrExpl.MouseEatStrategy;
 import birdStrExpl.TreeSleepStrategy;
+import decoratorExpl.DeadlineBonus;
+import decoratorExpl.FreqBonus;
 import decoratorExpl.Payable;
+import decoratorExpl.SpecialBonus;
 import models.FamilyHouse;
 import observersExpl.ObservableTempValue;
 import strategyExpl.BikeTravelStrategy;
@@ -58,6 +61,7 @@ public class Main {
         }
 
 
+        System.out.println("zarobki " + employee.getSalary());
 
 
 
