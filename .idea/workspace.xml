@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85a42a86-4ce7-4f06-9273-6f34774f6522" name="Changes" comment="wzorzec dekorator implementacja">
-      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExpl/DeadlineBonus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExpl/FreqBonus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/builderExpl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builderExpl/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/decoratorExpl/Bonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decoratorExpl/Bonus.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660722616769</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="wzorzec dekorator implementacja">
+      <created>1660723399860</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1660723399860</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

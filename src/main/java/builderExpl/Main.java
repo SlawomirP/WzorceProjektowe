@@ -21,6 +21,11 @@ import strategyExpl.SemiHouseLivingStrategy;
 public class Main {
     public static void main(String[] args) throws InterruptedException {
 
+
+
+        //FASADA
+        giveFreeHouseToBestFreqEmployee();
+
         //STRATEGIA
         //plan: (bez napisanych klas i metod)
         Employee mike = new Employee();
@@ -66,6 +71,10 @@ public class Main {
 
 
 //
+    }
+
+    private static void giveFreeHouseToBestFreqEmployee() {
+
     }
 
     private static void observePattern() throws InterruptedException {
