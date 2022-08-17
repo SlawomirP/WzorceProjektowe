@@ -77,6 +77,6 @@ public class ApiFacade {
                 .setAdress("ul. Dluga")
                 .setDoorsNumber(3)
                 .setWindowsNumber(10)
-                .build().toString();
+                .build().toString());
     }
 }
