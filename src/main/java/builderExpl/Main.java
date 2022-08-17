@@ -5,6 +5,7 @@ import birdStrExpl.Bird;
 import birdStrExpl.FlyTravelStrategy;
 import birdStrExpl.MouseEatStrategy;
 import birdStrExpl.TreeSleepStrategy;
+import decoratorExpl.Payable;
 import models.FamilyHouse;
 import observersExpl.ObservableTempValue;
 import strategyExpl.BikeTravelStrategy;

@@ -1,6 +1,8 @@
 package strategyExpl;
 
-public class Employee implements TravelStrategy, JobStrategy,BreakfastStrategy, LivingStrategy{
+import decoratorExpl.Payable;
+
+public class Employee implements TravelStrategy, JobStrategy,BreakfastStrategy, LivingStrategy, Payable {
     public TravelStrategy travelStrategy;
     public JobStrategy jobStrategy;
     public BreakfastStrategy breakfastStrategy;
@@ -30,7 +32,7 @@ public class Employee implements TravelStrategy, JobStrategy,BreakfastStrategy, 
     public void living() {
         livingStrategy.living();
     }
-
+    @Override
     public int getSalary() {
         return salary;
     }
@@ -38,4 +40,6 @@ public class Employee implements TravelStrategy, JobStrategy,BreakfastStrategy, 
     public void setSalary(int salary) {
         this.salary = salary;
     }
+
+
 }
